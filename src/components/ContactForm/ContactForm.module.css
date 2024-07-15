@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 2px 4px rgb(194, 141, 194);
+  margin-top: 20px;
+  width: 500px;
+
+  form {
+    width: 100%;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: purple;
+
+    input {
+      padding: 8px;
+      border-radius: 6px;
+      border-color: plum;
+    }
+  }
+
+  button {
+    background-color: purple;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+  }
+}
+
+.error {
+  color: red;
+}
